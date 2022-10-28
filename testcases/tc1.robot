@@ -18,7 +18,7 @@ LoginTest
     scroll element into view    class=buttonlut
     click button    class=buttonlut
     input text    id=username    Shehryar.Malik@student.lut.fi
-    input text    id=password    bs_XvE4C_wL39yWp
+    input text    id=password    ***************
     click element    ${LOGIN_BUTTON_LOC}
     close browser
     Log Current Date For TestCase
