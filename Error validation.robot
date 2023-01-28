@@ -10,18 +10,18 @@ ${Error_Message_Login}      css:.alert-danger
 
 *** Test Cases ***
 Validate UnSuccesful Login
-    open the browser with the Mortgage payment url
+    open the browser with the payment url
     Fill the login Form
     wait until it checks and display error message
     verify error message is correct
 
 *** Keywords ***
 open the browser with the Mortgage payment url
-    Create Webdriver    Chrome  executable_path=/Users/rahulshetty/Documents/chromedriver
-    Go To   https://rahulshettyacademy.com/loginpagePractise/
+    Create Webdriver    Chrome  executable_path=/Users/***/Documents/chromedriver
+    Go To   https://abc.com/loginpagePractise/
 
 Fill the login Form
-    Input Text          id:username     rahulshettyacademy
+    Input Text          id:username     XYZ
     Input Password      id:password     12345678
     Click Button        signInBtn
 
